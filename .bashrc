@@ -8,4 +8,4 @@
 alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 
-alias dotf='git --git-dir=~/git-repos/dotfiles.git/ --work-tree=~/'
+alias dotf='git --git-dir=$HOME/git-repos/dotfiles.git/ --work-tree=$HOME/'
