@@ -191,7 +191,14 @@ bar {
 exec_always setxkbmap ch
 
 # Wallpaper
+#exec_always feh --bg-fill /home/lukasf/Downloads/arch.jpg
 
 # i3lock
 bindsym $mod+l exec i3lock -c 000000
+
+# Assign Programs to Workspaces
+#for_window [class="Spotify"] move to workspace $ws3
+
+# PrtSc to take screenshot with flameshot
+bindsym Print exec flameshot gui
 
