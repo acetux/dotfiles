@@ -1,0 +1,16 @@
+"*":
+  core:
+    telemetryConsent: "no"
+    themes: [
+      "one-dark-ui"
+      "base16-tomorrow-dark-theme"
+    ]
+  editor:
+    fontFamily: "Liberation Mono"
+    invisibles: {}
+    preferredLineLength: 99999
+    scrollPastEnd: true
+    showIndentGuide: true
+    showInvisibles: true
+  welcome:
+    showOnStartup: false
